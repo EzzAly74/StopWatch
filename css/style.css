@@ -1,0 +1,41 @@
+p
+{
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+    color: darkslategray ;}
+button
+{
+    font-size: 30px !important;
+    padding: 15px !important;
+    width: 140px !important; 
+ }
+.stop
+{
+    border: 2px solid rgba(0, 0, 0, 0.2) ;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4) ;
+    width: 75%;
+    margin: 0px auto;
+}
+.pause , .continue
+{
+    display: none;
+}
+@media (max-width : 768px) {
+
+    p
+    {
+        font-size: 60px;
+    }
+    .stop
+    {
+        width: 85%;
+    }
+    button
+    {
+        width: 120px !important;
+        padding : 10px  !important ;    
+    }
+}
